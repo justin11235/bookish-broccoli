@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2119C83029CAE9A40048DFCA /* SmallTestSet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2119C82F29CAE9A40048DFCA /* SmallTestSet.mlmodel */; };
 		2119C83229CAEA630048DFCA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119C83129CAEA630048DFCA /* Extensions.swift */; };
 		D0FC318F299AF51B008059DB /* Food_IdentificatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC318E299AF51B008059DB /* Food_IdentificatorApp.swift */; };
 		D0FC3191299AF51B008059DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC3190299AF51B008059DB /* ContentView.swift */; };
@@ -42,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2119C82F29CAE9A40048DFCA /* SmallTestSet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SmallTestSet.mlmodel; path = ../../../../../Downloads/SmallTestSet.mlmodel; sourceTree = "<group>"; };
 		2119C83129CAEA630048DFCA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2119C83329CAF2D60048DFCA /* SmallTestSet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SmallTestSet.mlmodel; sourceTree = "<group>"; };
 		D0FC318B299AF51B008059DB /* Food Identificator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Identificator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC318E299AF51B008059DB /* Food_IdentificatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_IdentificatorApp.swift; sourceTree = "<group>"; };
 		D0FC3190299AF51B008059DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		D0FC3182299AF51B008059DB = {
 			isa = PBXGroup;
 			children = (
-				2119C82F29CAE9A40048DFCA /* SmallTestSet.mlmodel */,
 				D0FC318D299AF51B008059DB /* Food Identificator */,
 				D0FC319F299AF51E008059DB /* Food IdentificatorTests */,
 				D0FC31A9299AF51E008059DB /* Food IdentificatorUITests */,
@@ -112,6 +110,7 @@
 		D0FC318D299AF51B008059DB /* Food Identificator */ = {
 			isa = PBXGroup;
 			children = (
+				2119C83329CAF2D60048DFCA /* SmallTestSet.mlmodel */,
 				D0FC320829B2ABB5008059DB /* Views */,
 				D0FC3192299AF51D008059DB /* Assets.xcassets */,
 				D0FC3194299AF51D008059DB /* Food_Identificator.entitlements */,
@@ -293,7 +292,6 @@
 			files = (
 				D0FC31C2299B3CD7008059DB /* AboutView.swift in Sources */,
 				D0FC31C6299B3CFA008059DB /* ResultsView.swift in Sources */,
-				2119C83029CAE9A40048DFCA /* SmallTestSet.mlmodel in Sources */,
 				D0FC31C4299B3CE5008059DB /* ExamplesView.swift in Sources */,
 				D0FC320B29B3F552008059DB /* ImagePicker.swift in Sources */,
 				2119C83229CAEA630048DFCA /* Extensions.swift in Sources */,
