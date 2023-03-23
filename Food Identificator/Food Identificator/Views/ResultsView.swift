@@ -81,7 +81,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             let input = classifier20Input(image: buffer)
             // this error might be due to the config of the model being different
             let output = try model.prediction(input: input)
-            let text = output.sceneLabel
+            let text = output.classLabel
             // another error, need to figure out the correct output parameters of the model
             label.text = text
         }
