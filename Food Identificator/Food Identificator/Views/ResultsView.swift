@@ -77,8 +77,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
         do {
             let config = MLModelConfiguration()
-            let model = try SmallTestSet(configuration: config)
-            let input = SmallTestSetInput(image: buffer)
+            let model = try classifier20(configuration: config)
+            let input = classifier20Input(image: buffer)
             // this error might be due to the config of the model being different
             let output = try model.prediction(input: input)
             let text = output.sceneLabel

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2119C83229CAEA630048DFCA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119C83129CAEA630048DFCA /* Extensions.swift */; };
+		2119C83529CBE7100048DFCA /* classifier20.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2119C83429CBE7100048DFCA /* classifier20.mlmodel */; };
 		D0FC318F299AF51B008059DB /* Food_IdentificatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC318E299AF51B008059DB /* Food_IdentificatorApp.swift */; };
 		D0FC3191299AF51B008059DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FC3190299AF51B008059DB /* ContentView.swift */; };
 		D0FC3193299AF51D008059DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FC3192299AF51D008059DB /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		2119C83129CAEA630048DFCA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2119C83329CAF2D60048DFCA /* SmallTestSet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SmallTestSet.mlmodel; sourceTree = "<group>"; };
+		2119C83429CBE7100048DFCA /* classifier20.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = classifier20.mlmodel; sourceTree = "<group>"; };
 		D0FC318B299AF51B008059DB /* Food Identificator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Identificator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FC318E299AF51B008059DB /* Food_IdentificatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_IdentificatorApp.swift; sourceTree = "<group>"; };
 		D0FC3190299AF51B008059DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		D0FC318D299AF51B008059DB /* Food Identificator */ = {
 			isa = PBXGroup;
 			children = (
+				2119C83429CBE7100048DFCA /* classifier20.mlmodel */,
 				2119C83329CAF2D60048DFCA /* SmallTestSet.mlmodel */,
 				D0FC320829B2ABB5008059DB /* Views */,
 				D0FC3192299AF51D008059DB /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FC31C2299B3CD7008059DB /* AboutView.swift in Sources */,
+				2119C83529CBE7100048DFCA /* classifier20.mlmodel in Sources */,
 				D0FC31C6299B3CFA008059DB /* ResultsView.swift in Sources */,
 				D0FC31C4299B3CE5008059DB /* ExamplesView.swift in Sources */,
 				D0FC320B29B3F552008059DB /* ImagePicker.swift in Sources */,
